@@ -1,9 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <pokePrices/>
 </template>
 
 <script>
+import pokePrices from './components/pokePrices.vue'
+
+export default {
+  name: 'App',
+  components: {
+    pokePrices,
+  }
+}
 </script>
 
 <style>
